@@ -1,0 +1,26 @@
+.characterList {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.characterList .item {
+  flex: 1;
+}
+.paragraph {
+  width: 60%;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  background: #5ba2fb;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border-color: #00a1ff;
+}
